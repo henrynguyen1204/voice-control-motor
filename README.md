@@ -11,23 +11,25 @@ This project implements a voice-controlled motor system using TensorFlow Lite fo
 - **Real-Time Processing**: Processes audio inputs and controls motors in real-time, ensuring responsive operation.
 ## Commands List
 
-- **Yes**: Affirmative acknowledgment.
-- **No**: Negative acknowledgment.
-- **Up**: Command to move or increase position.
-- **Down**: Command to move or decrease position.
-- **Left**: Command to move left.
-- **Right**: Command to move right.
-- **Stop**: Command to halt movement or action.
-- **Go**: Command to start or continue movement.
+| **Command** | **Description**                        |
+|-------------|----------------------------------------|
+| **Yes**     | Affirmative acknowledgment.            |
+| **No**      | Negative acknowledgment.               |
+| **Up**      | Command to move or increase position.  |
+| **Down**    | Command to move or decrease position.  |
+| **Left**    | Command to move left.                  |
+| **Right**   | Command to move right.                 |
+| **Stop**    | Command to halt movement or action.    |
+| **Forward**      | Command to start or continue movement. |
 
 ## Getting Started
 
 ### Prerequisites
 
 - **Hardware**: 
-  - Microcontroller (e.g., ESP32)
-  - Motor driver
-  - Microphone module
+  - Microcontroller (ESP32S3)
+  - Motor driver (L298N)
+  - Microphone module (Inmp441)
 - **Software**:
   - [ESP-IDF](https://docs.espressif.com/projects/esp-idf/en/latest/esp32/) development framework
   - [TensorFlow Lite for Microcontrollers](https://www.tensorflow.org/lite/microcontrollers)
