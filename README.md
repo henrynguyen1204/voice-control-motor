@@ -13,8 +13,6 @@ This project implements a voice-controlled motor system using TensorFlow Lite fo
 
 | **Command** | **Description**                        |
 |-------------|----------------------------------------|
-| **Yes**     | Affirmative acknowledgment.            |
-| **No**      | Negative acknowledgment.               |
 | **Up**      | Command to move or increase position.  |
 | **Down**    | Command to move or decrease position.  |
 | **Left**    | Command to move left.                  |
