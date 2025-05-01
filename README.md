@@ -1,5 +1,3 @@
-Based on the provided code and available information, here's a suggested `README.md` for your project:
-
 # Project 1 - Voice-Controlled Motor System
 
 This project implements a voice-controlled motor system using TensorFlow Lite for Microcontrollers. The system recognizes specific voice commands to control motor operations, making it suitable for applications like voice-activated robotics or appliances.
